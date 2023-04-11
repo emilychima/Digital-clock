@@ -1,0 +1,39 @@
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-width: 100px;
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/581/original/alex-knight--4pZ_YqcSFc-unsplash.jpg?1681254560");
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 14px;
+  text-align: center;
+  font-family: Open Sans, Roboto, Lato;
+}
+
+.clock {
+  display: flex;
+}
+
+.clock div {
+  margin: 6px;
+}
+
+.clock span {
+  align-items: center;
+  background: #603808;
+  color: #ffedd8;
+  display: flex;
+  font-family: Roboto;
+  font-size: 40px;
+  height: 80px;
+  justify-content: center;
+  opacity: 0.8;
+  width: 100px;
+}
