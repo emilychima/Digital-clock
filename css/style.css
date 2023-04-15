@@ -2,19 +2,21 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  font-family: Roboto;
   align-items: center;
   justify-content: center;
   height: 100vh;
   max-width: 100px;
-  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/581/original/alex-knight--4pZ_YqcSFc-unsplash.jpg?1681254560");
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/634/original/aron-visuals-BXOXnQ26B7o-unsplash.jpg?1681291430");
+  background-size: cover;
 }
 
 h2 {
   text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 14px;
+  letter-spacing: 2px;
+  font-size: 15px;
   text-align: center;
-  font-family: Open Sans, Roboto, Lato;
+  color: #fefae0;
 }
 
 .clock {
@@ -23,17 +25,38 @@ h2 {
 
 .clock div {
   margin: 6px;
+  position: relative;
 }
 
 .clock span {
   align-items: center;
-  background: #603808;
-  color: #ffedd8;
+  background: #606c38;
+  color: #fefae0;
   display: flex;
-  font-family: Roboto;
   font-size: 40px;
   height: 80px;
   justify-content: center;
   opacity: 0.8;
   width: 100px;
+  text-shadow: 2px 2px 4px rgba (0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.clock .text {
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: #283618;
+  opacity: 0.8;
+}
+
+.clock #ampm {
+  bottom: 0;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background: #ab6d67;
+  color: #ffffff;
 }
